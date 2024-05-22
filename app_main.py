@@ -13,7 +13,7 @@ selection = st.sidebar.radio("Go to", ("Analysis", "Prediction"))
 # Based on the selected option, display different content
 if selection == "Analysis":
     # Create a DataFrame by importing data from csv file
-    df = pd.read_csv('dft-road-statistics-collision-last-5-years_new.csv')
+    df = pd.read_csv('dft-road-statistics-collision-last-5-years_new/dft-road-statistics-collision-last-5-years_new.csv')
     left_col1, center_col2, right_col3 = st.columns(3)
     with left_col1:
         # insert image
